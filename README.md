@@ -49,7 +49,7 @@ mkdir data
 ```
 
 - Pepare dataset [Argoverse 2](https://github.com/tobiasfshr/map4d/blob/main/docs/datasets/Argoverse2.md) as [map4d](https://github.com/tobiasfshr/map4d.git)
-- Download the preprocessed KITTI scenes [here](https://drive.google.com/file/d/1Qkj04HddA5P5e4JeJgsXr3rOvMQkCvGV/view?usp=sharing)
+- Download the preprocessed KITTI scenes [here](https://drive.google.com/file/d/15lJSoaNPbvhrkHGTpOTGRjHZewtd6f1B/view?usp=sharing)
 
 ## Training
 
@@ -66,7 +66,7 @@ ns-train 4dgf-av2-big --machine.num-devices 8 --pipeline.model.max-num-gaussians
 
 ## Evaluation
 
-We provide the trained checkpoints  [here](https://drive.google.com/file/d/15lJSoaNPbvhrkHGTpOTGRjHZewtd6f1B/view?usp=sharing)
+We provide the trained checkpoints  [here](https://drive.google.com/file/d/1Qkj04HddA5P5e4JeJgsXr3rOvMQkCvGV/view?usp=sharing)
 
 ```
 ns-eval --load-config <trained_model_config>
