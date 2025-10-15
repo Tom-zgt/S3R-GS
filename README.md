@@ -1,4 +1,4 @@
-<div align="center">
+
 
 
 # **S3R-GS: Streamlining the Pipeline for Large-Scale Street Scene Reconstruction**
